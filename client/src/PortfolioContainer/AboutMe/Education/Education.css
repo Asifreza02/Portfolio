@@ -1,0 +1,83 @@
+.education-container{
+  width: 100vw;
+  background: rgb(250,250,250);
+  background: linear-gradient(180deg, rgb(255, 255, 255) 10%, rgba(137, 166, 180, 0.732) 49%, rgba(75, 110, 124, 0.628) 75%, rgba(56, 77, 93, 0.805) 94%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.education-content{
+  width: 90vw;
+  display: flex;
+  gap: 8vw;
+  padding: 10px;
+}
+.education-left{
+  width: 30vw;
+  height: fit-content;
+  padding: 15px;
+  background: rgb(184,242,236);
+  background: linear-gradient(153deg, rgb(184, 242, 236) 0%, rgba(217,207,229,1) 54%, rgba(74,55,72,0.958420868347339) 100%);
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.education-left-name{
+  color: rgb(50, 52, 34);
+  padding: 10px;
+  border-bottom: 0.5px solid gray;
+}
+.education-qr{
+  width: 140px;
+  height: 140px;
+  background-image: url("../../../assets/Education/qr-code.jpg");
+  background-size: cover;
+}
+.education-links{
+  width: 80%;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.education-links a{
+  color: aliceblue;
+  font-size: 20px;
+}
+.education-links a:hover{
+  color: orangered;
+}
+.education-right{
+  width: 50vw;
+  height: fit-content;
+  padding: 20px;
+  background: rgb(108,120,181);
+  background: linear-gradient(183deg, rgba(137, 145, 182, 0.695) 0%, rgba(143,97,140,0.8323704481792717) 65%, rgba(135, 95, 102, 0.911) 100%);
+}
+.hidden{
+  display: none;
+}
+.education-right-content{
+  font-family: "Poppins ";
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(102, 100, 100);
+}
+.education-right-content span{
+  font-size: 22px;
+  font-weight: 500;
+  margin-right: 20px;
+}
+.education-right-content p{
+  margin-top: 20px;
+  font-size: 1.1rem;
+}
+.education-right-content button{
+  width: 40px;
+  background: transparent;
+  font-size: 20px;
+}

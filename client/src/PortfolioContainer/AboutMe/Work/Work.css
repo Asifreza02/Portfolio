@@ -1,0 +1,49 @@
+.card{
+  width: 40vw;
+  height: 42vh;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.card1{
+  background-image: url("../../../assets/Work/work-img1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.card2{
+  background-image: url("../../../assets/Work/work-img2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.card3{
+  width: 30vw;
+  height: 40vh;
+  background-image: url("../../../assets/Work/work-img3.png");
+  background-size: cover;
+}
+.overlayer {
+  width: 100%;
+  height: 100%;
+  background-color: #466076;
+  padding: 20px 30px;
+  text-align: left;
+  transition: all ease 0.6s;
+  opacity: 0;
+}
+.overlayer h4 {
+  color: black;
+  font-size: 2rem;
+  font-weight: 700;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+.overlayer p {
+  color: black;
+  font-size: 1.2rem;
+}
+.card:hover .overlayer {
+  opacity: 1;
+}
+.card:hover {
+  transform: rotate3d(-1,1,0,15deg);
+  cursor:no-drop;
+}
