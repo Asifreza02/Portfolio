@@ -37,13 +37,13 @@ const Education = () => {
           <div className='education-qr'>
           </div>
           <div className='education-links'>
-          <a href="#">
+          <a href="https://www.linkedin.com/in/asif-reza-599571259/">
               <FaLinkedin />
             </a>
-            <a href="#">
+            <a href="https://www.instagram.com/asifreza02/">
               <FaSquareInstagram />
             </a>
-            <a href="#">
+            <a href="https://github.com/Asifreza02/">
              <FaGithub />
             </a>
             <a href="#">

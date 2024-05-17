@@ -13,13 +13,13 @@ const Profile = () => {
       <div className='profile-parent'>
         <div className='profile-details'>
           <div className='colz'>
-            <a href="#">
+            <a href="https://www.linkedin.com/in/asif-reza-599571259/">
               <FaLinkedin />
             </a>
-            <a href="#">
+            <a href="https://www.instagram.com/asifreza02/">
               <FaSquareInstagram />
             </a>
-            <a href="#">
+            <a href="https://github.com/Asifreza02/">
              <FaGithub />
             </a>
             <a href="#">

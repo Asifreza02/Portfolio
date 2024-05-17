@@ -31,7 +31,7 @@ const Work = () => {
                   </p>
                 </div>
                 <div about-content-links>
-                  <a href=""><FaGithub /></a>
+                  <a href="https://github.com/Asifreza02/"><FaGithub /></a>
                   <a href="">link</a>
                 </div>
               </div>
@@ -52,7 +52,7 @@ const Work = () => {
                   </p>
                 </div>
                 <div about-content-links>
-                  <a href=""><FaGithub /> </a>
+                  <a href="https://github.com/Asifreza02/"><FaGithub /> </a>
                   <a href="">link</a>
                 </div>
               </div>
@@ -96,7 +96,7 @@ const Work = () => {
                   </p>
                 </div>
                 <div about-content-links>
-                  <a href=""><FaGithub /></a>
+                  <a href="https://github.com/Asifreza02/"><FaGithub /></a>
                   <a href="">link</a>
                 </div>
               </div>
